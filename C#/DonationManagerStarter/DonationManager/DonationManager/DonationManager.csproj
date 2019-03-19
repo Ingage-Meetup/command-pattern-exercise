@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DonationManager\Donation.cs" />
+    <Compile Include="DonationManager\DonationList.cs" />
+    <Compile Include="DonationManager\DonationManager.cs" />
+    <Compile Include="DonationManager\Donor.cs" />
+    <Compile Include="DonationManager\DonorList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
